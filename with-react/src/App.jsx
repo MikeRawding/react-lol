@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <h1>Learn Over Lunch!</h1>
-      {/* <TodoList1 /> */}
-      <TodoList2 initialItems={['Call Dentist', 'Replace Car Battery', 'Learn Over Lunch']}/>
+      <TodoList1 />
+      {/* <TodoList2 initialItems={['Call Dentist', 'Replace Car Battery', 'Learn Over Lunch']}/> */}
       {/* <TodoList3 initialItems={['Call Dentist', 'Replace Car Battery', 'Learn Over Lunch']}/> */}
     </>
   )

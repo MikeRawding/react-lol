@@ -19,7 +19,7 @@ function TodoList3(props) {
       </span>
       <h2>Current Items</h2>
       <ul>
-        {items.map(item => <ItemComponent>{item}</ItemComponent>)}
+        {items.map(itemName => <ItemComponent>{itemName}</ItemComponent>)}
       </ul>
     </div>
   )
